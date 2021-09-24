@@ -1,0 +1,172 @@
+{
+  "id": "b8d0fead-6e4d-4925-a48f-76f711dc8332",
+  "parentId": "f0955461-56b0-4a96-a6de-2f3e3fd9acfa",
+  "rootParentId": "f0955461-56b0-4a96-a6de-2f3e3fd9acfa",
+  "name": "Default Welcome Intent - custom",
+  "auto": true,
+  "contexts": [
+    "bantuan",
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom",
+      "affectedContexts": [
+        {
+          "name": "pilihanbantuan",
+          "lifespan": 1
+        },
+        {
+          "name": "DefaultWelcomeIntent-custom-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "Silakan pilih beberapa kategori layanan berikut",
+                  "type": "description"
+                }
+              ],
+              [
+                {
+                  "subtitle": "Seputar pelatihan dan layanan lainnya",
+                  "title": "Pelatihan",
+                  "type": "list",
+                  "event": {
+                    "name": "PELATIHAN",
+                    "languageCode": "en",
+                    "parameters": {}
+                  }
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "type": "list",
+                  "title": "Informasi",
+                  "event": {
+                    "languageCode": "en",
+                    "name": "INFORMASI",
+                    "parameters": {}
+                  },
+                  "subtitle": "Informasi lain mengenai Ajisaka"
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "subtitle": "Pelayanan Ajisaka",
+                  "event": {
+                    "languageCode": "en",
+                    "name": "PELAYANAN",
+                    "parameters": {}
+                  },
+                  "title": "Pelayananan",
+                  "type": "list"
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "event": {
+                    "languageCode": "en",
+                    "parameters": {},
+                    "name": "SERTIFIKASI"
+                  },
+                  "title": "Sertifikasi",
+                  "subtitle": "Sertifikat dan SKP Ajisaka",
+                  "type": "list"
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "subtitle": "Registrasi pelatihan",
+                  "event": {
+                    "name": "REGISTRASI",
+                    "parameters": {},
+                    "languageCode": "en"
+                  },
+                  "type": "list",
+                  "title": "Registrasi"
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "subtitle": "Waktu pelatihan",
+                  "type": "list",
+                  "title": "Waktu",
+                  "event": {
+                    "languageCode": "en",
+                    "parameters": {},
+                    "name": "WAKTU"
+                  }
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "subtitle": "Kendala pelatihan",
+                  "event": {
+                    "languageCode": "en",
+                    "parameters": {},
+                    "name": "KENDALA"
+                  },
+                  "type": "list",
+                  "title": "Kendala"
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "subtitle": "E-learning, Website atau Sistem Ajisaka",
+                  "event": {
+                    "parameters": {},
+                    "name": "WEBSITE",
+                    "languageCode": "en"
+                  },
+                  "title": "Website",
+                  "type": "list"
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "event": {
+                    "languageCode": "en",
+                    "parameters": {},
+                    "name": "LAINNYA"
+                  },
+                  "subtitle": "Prosedur, mentor, dan lainnya",
+                  "type": "list",
+                  "title": "Lainnya"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

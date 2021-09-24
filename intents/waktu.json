@@ -1,0 +1,69 @@
+{
+  "id": "1bfa76c4-8ddd-44f5-94cf-25eb45f20c49",
+  "name": "waktu",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "title": "Silakan pilih beberapa kategori waktu berikut:"
+                }
+              ],
+              [
+                {
+                  "type": "list",
+                  "subtitle": "Registrasi akun",
+                  "event": {
+                    "languageCode": "en",
+                    "parameters": {},
+                    "name": "WAKTU_REGISTRASI_AKUN"
+                  }
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "event": {
+                    "name": "WAKTU_MASA_SKP",
+                    "parameters": {},
+                    "languageCode": "en"
+                  },
+                  "type": "list",
+                  "subtitle": "Masa berlaku SKP"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WAKTU"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

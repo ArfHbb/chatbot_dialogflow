@@ -1,0 +1,51 @@
+{
+  "id": "f0955461-56b0-4a96-a6de-2f3e3fd9acfa",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [
+        {
+          "name": "bantuan",
+          "lifespan": 1
+        },
+        {
+          "name": "DefaultWelcomeIntent-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hai! Selamat datang di Ajisaka. Ada yang bisa admin bantu?",
+            "Halo! Selamat datang di Ajisaka. Ada yang bisa admin bantu?",
+            "Selamat siang! Selamat datang di Ajisaka. Ada yang bisa admin bantu?",
+            "Salam! Selamat datang di Ajisaka. Ada yang bisa admin bantu?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,81 @@
+{
+  "id": "f5315db3-6246-42cb-b349-92fece51a2ee",
+  "name": "website",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "title": "Silakan pilih beberapa kategori website berikut:"
+                }
+              ],
+              [
+                {
+                  "type": "list",
+                  "subtitle": "registrasi akun",
+                  "event": {
+                    "parameters": {},
+                    "name": "WEBSITE_REGISTRASI_AKUN",
+                    "languageCode": "en"
+                  }
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "event": {
+                    "name": "WEBSITE_BIAYA_PELATIHAN",
+                    "parameters": {},
+                    "languageCode": "en"
+                  },
+                  "type": "list",
+                  "subtitle": "biaya pelatihan"
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "event": {
+                    "name": "WEBSITE_JADWAL_PELATIHAN",
+                    "languageCode": "en",
+                    "parameters": {}
+                  },
+                  "type": "list",
+                  "subtitle": "jadwal pelatihan"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WEBSITE"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

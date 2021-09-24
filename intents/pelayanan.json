@@ -1,0 +1,105 @@
+{
+  "id": "c89cb20a-44a7-47c0-bfa7-cb9c1df47790",
+  "name": "pelayanan",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "Silakan pilih beberapa kategori pelayanan berikut:",
+                  "type": "description"
+                }
+              ],
+              [
+                {
+                  "event": {
+                    "name": "PELAYANAN_HUBUNGI_AJISAKA",
+                    "parameters": {},
+                    "languageCode": "en"
+                  },
+                  "subtitle": "Hubungi Ajisaka",
+                  "type": "list"
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "subtitle": "Pendaftaran Offline",
+                  "type": "list",
+                  "event": {
+                    "parameters": {},
+                    "languageCode": "en",
+                    "name": "PELAYANAN_PENDAFTARAN_OFFLINE"
+                  }
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "type": "list",
+                  "event": {
+                    "parameters": {},
+                    "name": "PELAYANAN_SISTEM_UJIAN",
+                    "languageCode": "en"
+                  },
+                  "subtitle": "Sistem Ujian"
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "type": "list",
+                  "subtitle": "Kunjungan Ajisaka",
+                  "event": {
+                    "languageCode": "en",
+                    "parameters": {},
+                    "name": "PELAYANAN_KUNJUNGAN_AJISAKA"
+                  }
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "type": "list",
+                  "subtitle": "Pengajuan Sertifikat",
+                  "event": {
+                    "languageCode": "en",
+                    "parameters": {},
+                    "name": "PELAYANAN_PENGAJUAN_SERTIFIKAT"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "PELAYANAN"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

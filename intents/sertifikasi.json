@@ -1,0 +1,129 @@
+{
+  "id": "c36eece3-2f45-475f-b9df-5a55a543b49a",
+  "name": "sertifikasi",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "title": "Silakan pilih beberapa kategori sertifikasi berikut:"
+                }
+              ],
+              [
+                {
+                  "subtitle": "Banyak pelatihan",
+                  "type": "list",
+                  "event": {
+                    "languageCode": "en",
+                    "parameters": {},
+                    "name": "SERTIFIKASI_BANYAK_PELATIHAN"
+                  }
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "event": {
+                    "name": "SERTIFIKASI_SYARAT_KHUSUS",
+                    "parameters": {},
+                    "languageCode": "en"
+                  },
+                  "subtitle": "Syarat khusus",
+                  "type": "list"
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "subtitle": "Pembekuan sertifikat",
+                  "type": "list",
+                  "event": {
+                    "name": "SERTIFIKASI_PEMBEKUAN_SERTIFIKAT",
+                    "languageCode": "en",
+                    "parameters": {}
+                  }
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "event": {
+                    "parameters": {},
+                    "languageCode": "en",
+                    "name": "SERTIFIKASI_PENGAJUAN_SKP"
+                  },
+                  "type": "list",
+                  "subtitle": "Pengajuan SKP"
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "type": "list",
+                  "subtitle": "Perpanjangan SKP",
+                  "event": {
+                    "parameters": {},
+                    "name": "SERTIFIKASI_PERPANJANGAN_SKP",
+                    "languageCode": "en"
+                  }
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "event": {
+                    "languageCode": "en",
+                    "name": "SERTIFIKASI_KARTU LISENSI",
+                    "parameters": {}
+                  },
+                  "type": "list",
+                  "subtitle": "Kartu lisensi"
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "type": "list",
+                  "event": {
+                    "name": "SERTIFIKASI_SYARAT_PERPANJANGAN",
+                    "languageCode": "en",
+                    "parameters": {}
+                  },
+                  "subtitle": "Syarat perpanjangan"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "SERTIFIKASI"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

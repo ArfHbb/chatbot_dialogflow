@@ -1,0 +1,127 @@
+[
+  {
+    "id": "6c681ffb-0161-4e8d-84e3-dfef83ab9409",
+    "data": [
+      {
+        "text": "ada",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "b4854fa2-88fc-4003-b93e-c25731073e05",
+    "data": [
+      {
+        "text": "tolong",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "954567b4-9a49-44b7-af5d-ef0193d168e2",
+    "data": [
+      {
+        "text": "ada nih",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "6fa24faa-5c5e-458c-bbc2-f351564c005c",
+    "data": [
+      {
+        "text": "info",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "30bf3b93-8b0b-43be-beda-254931f8db48",
+    "data": [
+      {
+        "text": "bertanya",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "f33920bd-bed4-4a8d-b031-a02ff97cb255",
+    "data": [
+      {
+        "text": "informasi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "0920694d-b979-407d-932e-c28498ca8482",
+    "data": [
+      {
+        "text": "mau",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "tanya",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "925ac5f5-5d54-47bc-a662-8a79f847eb01",
+    "data": [
+      {
+        "text": "ada dong",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "efbe58b5-32e4-47dc-a16e-19eb5b008e58",
+    "data": [
+      {
+        "text": "iya",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

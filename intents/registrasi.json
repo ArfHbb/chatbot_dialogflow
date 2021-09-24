@@ -1,0 +1,69 @@
+{
+  "id": "e363a15e-5694-4794-bac0-921d742ca5fb",
+  "name": "registrasi",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "Silakan pilih beberapa kategori registrasi berikut:",
+                  "type": "description"
+                }
+              ],
+              [
+                {
+                  "type": "list",
+                  "event": {
+                    "languageCode": "en",
+                    "parameters": {},
+                    "name": "REGISTRASI_DEADLINE_PEMBAYARAN"
+                  },
+                  "subtitle": "Deadline pembayaran"
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "subtitle": "Kode unik",
+                  "type": "list",
+                  "event": {
+                    "parameters": {},
+                    "languageCode": "en",
+                    "name": "REGISTRASI_KODE_UNIK"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "REGISTRASI"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

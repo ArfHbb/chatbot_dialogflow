@@ -1,0 +1,117 @@
+{
+  "id": "83856eb9-d2af-454d-a95f-2c81aacb6058",
+  "name": "pelatihan",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "Silakan pilih beberapa kategori pelatihan berikut:",
+                  "type": "description"
+                }
+              ],
+              [
+                {
+                  "event": {
+                    "languageCode": "en",
+                    "parameters": {},
+                    "name": "LAINNYA_PRODUK"
+                  },
+                  "type": "list",
+                  "subtitle": "Produk"
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "subtitle": "Persyaratan",
+                  "type": "list",
+                  "event": {
+                    "languageCode": "en",
+                    "name": "LAINNYA_PERSYARATAN",
+                    "parameters": {}
+                  }
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "event": {
+                    "name": "LAINNYA_MANFAAT",
+                    "parameters": {},
+                    "languageCode": "en"
+                  },
+                  "subtitle": "Manfaat",
+                  "type": "list"
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "subtitle": "Training Kit",
+                  "type": "list",
+                  "event": {
+                    "parameters": {},
+                    "languageCode": "en",
+                    "name": "LAINNYA_TRAINING_KIT"
+                  }
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "subtitle": "Pelatihan Offline",
+                  "type": "list",
+                  "event": {
+                    "name": "LAINNYA_PELATIHAN_OFFLINE",
+                    "languageCode": "en",
+                    "parameters": {}
+                  }
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "subtitle": "Kurikulum",
+                  "event": {
+                    "parameters": {},
+                    "name": "LAINNYA_KURIKULUM",
+                    "languageCode": "en"
+                  },
+                  "type": "list"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "PELATIHAN"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

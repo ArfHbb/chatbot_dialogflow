@@ -1,0 +1,81 @@
+{
+  "id": "cae9a5d9-ac10-47be-b69f-5ecfff64567c",
+  "name": "kendala",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "Silakan pilih beberapa kategori kendala berikut:",
+                  "type": "description"
+                }
+              ],
+              [
+                {
+                  "event": {
+                    "parameters": {},
+                    "languageCode": "en",
+                    "name": "KENDALA_LOGIN"
+                  },
+                  "type": "list",
+                  "subtitle": "kendala Login"
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "subtitle": "Lupa password",
+                  "event": {
+                    "languageCode": "en",
+                    "parameters": {},
+                    "name": "KENDALA_LUPA_PASSWORD"
+                  },
+                  "type": "list"
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "type": "list",
+                  "event": {
+                    "name": "KENDALA_BERHALANGAN_HADIR",
+                    "languageCode": "en",
+                    "parameters": {}
+                  },
+                  "subtitle": "Berhalangan hadir"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "KENDALA"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

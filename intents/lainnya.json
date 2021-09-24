@@ -1,0 +1,227 @@
+{
+  "id": "0e61d738-f26d-4444-ac4b-1ae760d855d9",
+  "name": "lainnya",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "lainnya_mentor",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "Silakan pilih beberapa kategori layanan berikut:",
+                  "type": "description"
+                }
+              ],
+              [
+                {
+                  "subtitle": "Mentor",
+                  "type": "list",
+                  "event": {
+                    "name": "LAINNYA_MENTOR",
+                    "parameters": {},
+                    "languageCode": "en"
+                  }
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "event": {
+                    "name": "LAINNYA_ELIMINASI",
+                    "parameters": {},
+                    "languageCode": "en"
+                  },
+                  "subtitle": "Eliminasi",
+                  "type": "list"
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "subtitle": "Konsultansi",
+                  "type": "list",
+                  "event": {
+                    "languageCode": "en",
+                    "name": "LAINNYA_KONSULTANSI",
+                    "parameters": {}
+                  }
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "type": "list",
+                  "event": {
+                    "name": "LAINNYA_PROSEDUR",
+                    "languageCode": "en",
+                    "parameters": {}
+                  },
+                  "subtitle": "Prosedur"
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "type": "list",
+                  "event": {
+                    "name": "LAINNYA_LISENSI",
+                    "parameters": {},
+                    "languageCode": "en"
+                  },
+                  "subtitle": "Lisensi"
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "event": {
+                    "name": "LAINNYA_JAMINAN_KERJA",
+                    "parameters": {},
+                    "languageCode": "en"
+                  },
+                  "subtitle": "Jaminan Kerja",
+                  "type": "list"
+                },
+                {
+                  "type": "list",
+                  "event": {
+                    "name": "LAINNYA_JAMINAN_KERJA",
+                    "languageCode": "en",
+                    "parameters": {}
+                  },
+                  "subtitle": "Jaminan Kerja"
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "type": "list",
+                  "event": {
+                    "parameters": {},
+                    "languageCode": "en",
+                    "name": "LAINNYA_PENGECEKAN"
+                  },
+                  "subtitle": "Pengecekan"
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "event": {
+                    "parameters": {},
+                    "name": "LAINNYA_REGISTRASI",
+                    "languageCode": "en"
+                  },
+                  "type": "list",
+                  "subtitle": "Registrasi"
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "subtitle": "Verifikasi",
+                  "type": "list",
+                  "event": {
+                    "parameters": {},
+                    "languageCode": "en",
+                    "name": "LAINNYA_VERIFIKASI"
+                  }
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "subtitle": "Jasa Pelayanan",
+                  "type": "list",
+                  "event": {
+                    "name": "LAINNYA_JASA_PELAYANAN",
+                    "languageCode": "en",
+                    "parameters": {}
+                  }
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "subtitle": "Fasilitas",
+                  "type": "list",
+                  "event": {
+                    "name": "LAINNYA_FASILITAS",
+                    "languageCode": "en",
+                    "parameters": {}
+                  }
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "event": {
+                    "name": "LAINNYA_PENGAMBLAN",
+                    "parameters": {},
+                    "languageCode": "en"
+                  },
+                  "subtitle": "Pengambilan",
+                  "type": "list"
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "subtitle": "Persyaratan",
+                  "event": {
+                    "parameters": {},
+                    "languageCode": "en",
+                    "name": "LAINNYA_PERSYARATAN"
+                  },
+                  "type": "list"
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "event": {
+                    "parameters": {},
+                    "name": "LAINNYA_PERUSAHAAN",
+                    "languageCode": "en"
+                  },
+                  "type": "list",
+                  "subtitle": "Perusahaan"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "LAINNYA"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

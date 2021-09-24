@@ -1,0 +1,129 @@
+{
+  "id": "77375d54-5d01-40f2-b2dc-4fa982156583",
+  "name": "informasi",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "title": "Silakan pilih beberapa kategori informasi berikut:"
+                }
+              ],
+              [
+                {
+                  "type": "list",
+                  "event": {
+                    "languageCode": "en",
+                    "name": "INFORMASI_AKUN_ALUMNI",
+                    "parameters": {}
+                  },
+                  "subtitle": "Akun Alumni"
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "type": "list",
+                  "event": {
+                    "name": "INFORMASI_EMAIL_TERDAFTAR",
+                    "parameters": {},
+                    "languageCode": "en"
+                  },
+                  "subtitle": "Email Terdaftar"
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "type": "list",
+                  "event": {
+                    "name": "INFORMASI_TINGKAT_PENDIDIKAN",
+                    "parameters": {},
+                    "languageCode": "en"
+                  },
+                  "subtitle": "Tingkat Pendidikan"
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "event": {
+                    "parameters": {},
+                    "name": "INFORMASI_REMIDIAL_UJIAN",
+                    "languageCode": "en"
+                  },
+                  "type": "list",
+                  "subtitle": "Remidial Ujian"
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "type": "list",
+                  "subtitle": "Beasiswa",
+                  "event": {
+                    "name": "INFORMASI_BEASISWA",
+                    "parameters": {},
+                    "languageCode": "en"
+                  }
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "event": {
+                    "name": "INFORMASI_AKUN_WEBSITE",
+                    "parameters": {},
+                    "languageCode": "en"
+                  },
+                  "subtitle": "Akun Website",
+                  "type": "list"
+                },
+                {
+                  "type": "dividier"
+                },
+                {
+                  "subtitle": "Konfirmasi Pembayaran",
+                  "type": "list",
+                  "event": {
+                    "parameters": {},
+                    "languageCode": "en",
+                    "name": "INFORMASI_KONFIRMASI_PEMBAYARAN"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "INFORMASI"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
